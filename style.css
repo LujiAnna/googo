@@ -1,0 +1,143 @@
+
+/* * Helps in styling, comment out when done */
+* {
+    /* border: 1px black solid; */
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Helvetica", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+
+i {
+    color: #5f6368;
+}
+
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 35px;
+    /* line-height: 20px; */
+
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+    cursor: pointer;
+
+    /*1. hover: border, line */
+}
+
+/* main name styling */
+#red {
+    color: #ea4335;
+}
+
+#blue {
+    color: #4285f4;
+}
+
+#yellow {
+    color: #f6bc3d;
+}
+
+#green {
+    color: #50a954;
+}
+
+/* 1. change title to image */
+h1 {
+    font-size: 5em;
+    line-height: 1em;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    display: block;
+}
+
+input {
+    /* display:block; */
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    min-width: 600px;
+    line-height: 40px;
+    border: 1px solid #e6e0e0;
+    outline: none; /* this removes the glow for textare*/
+    resize: none; /*remove the resize handle on the bottom right for textarea*/
+    /* 2. remove x sign for input type search */
+    font-size: 1.1em;
+    color: rgba(0,0,0,.87);
+    text-overflow: clip;
+    padding: .4rem 1rem;
+}
+
+    /* 3. box shadow */
+input:focus {
+    /* border-color: red; */
+    min-width: 610px;
+    line-height: 41px;
+    border: 1px solid #faf5f5;
+
+
+
+}
+
+button {
+    background-color: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: none;
+    font-size: 1em;
+    margin-right: 7px;
+/* removing chrome & safari button default style
+-webkit-appearance: none;
+-moz-appearance: none; */
+
+}
+
+main {
+    text-align: center;
+    margin:  0 auto;
+    clear: both;
+    margin-top: 20vh;
+/* 4. icons attached to search box */ 
+    /* border: 1px black solid; */
+    /* position: absolute;
+    left: 30vw;
+    height: 50vh; */
+}
+
+/* 5. a[onclick] { cursor: pointer; } */
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-color: #f6f6f6;
+    z-index: -1;
+
+}
+
+/* 6. check order of right listing as they are shifted */
+.left {
+    float: left;
+    padding: 4px 8px;
+}
+
+.right {
+    float: right;
+    padding: 6px 8px;
+}
+
+/* 7. media query: mobile responsive */
